@@ -7,12 +7,27 @@
     margin: 10px;
 }
 
+a {
+    color: blue;
+    font-weight: bold;
+}
+a:visited {
+    color:brown;
+}
+a:hover {
+    color:blueviolet;
+}
+.body {
+    background-color: rgb(191, 191, 191);
+}
+
 .page {
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     border-style: groove;
     border-color: black;
     padding: 5px;
-    margin: 15px;
+    margin: 10px;
+
 }
 
 #h1 {
@@ -20,7 +35,7 @@
     color: rgb(111, 111, 218);
 }
 
-#p {
+#p1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(111, 111, 218);
 }
