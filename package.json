@@ -1,0 +1,15 @@
+{
+  "name": "web504_-week_3",
+  "version": "1.0.0",
+  "description": "Week 3 Web504 class work, HTML and CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
