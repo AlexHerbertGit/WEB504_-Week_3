@@ -5,10 +5,11 @@ body {
 #backgroundimage {
     border: 5px;
     border-style: solid;
+    border-radius: 15px;
     border-color: black;
     height: 100%;
     width: 100%;
-    margin: inherit;
+    margin: 2px;
 }
 
 a {
@@ -27,7 +28,8 @@ a:hover {
 
 .page {
     background-color: rgb(255, 255, 255);
-    border-style: groove;
+    border-radius: 15px;
+    border-style: solid;
     border-color: black;
     padding: 5px;
     margin: 10px;
@@ -48,6 +50,9 @@ a:hover {
     border: 5px;
     border-style: solid;
     border-color: black;
+    border-radius: 15px;
+
+    width: auto;
     margin: 2px;
     padding: 50px;
     text-align: center;
@@ -56,20 +61,39 @@ a:hover {
 }
 
 .list-style-one {
-list-style-type: circle;
-list-style-position: outside;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(111, 111, 218);
+    list-style-type: circle;
+    list-style-position: outside;
 }
 
 .list-style-two {
-list-style-type: square;
-list-style-position: inside;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(111, 111, 218);
+    list-style-type: square;
+    list-style-position: inside;
 }
 
 .list-style-three {
-list-style-type: decimal;
-list-style-position: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(111, 111, 218);
+    list-style-type: decimal;
+    list-style-position: none;
 }
 
 .list-style-four {
-list-style-type: lower-alpha;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(111, 111, 218);
+    list-style-type: lower-alpha;
 }
+
+.box-one {
+background-color: rgb(226, 226, 226);
+border: 3px solid black;
+border-radius: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 2px;
+padding-right: 2px;
+}
+
