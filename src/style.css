@@ -2,13 +2,30 @@ body {
     background-image: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80);
     
 }
-#backgroundimage {
-    border: 5px;
-    border-style: solid;
-    border-radius: 15px;
-    border-color: black;
-    height: 100%;
-    width: 100%;
-    margin: 2px;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container-item {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.item {
+    margin: 10px;
+    
+}
+
 
