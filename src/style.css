@@ -42,6 +42,7 @@ ul {
 li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     list-style: none;
+    flex-grow: 20;
     width: 100px;
     height: 100px;
     background-color:blueviolet;
